@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>仿京东轮播</title>
+<link href="css/slider.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+ 	<!--轮播容器-->
+	<div class="sliderM" id="s1">
+    	<!--轮播图片区域--> 
+        <ul class="sliderM-img">
+        	<li><a href="#"><img src="images/1.jpg" /></a></li>
+            <li><a href="#"><img src="images/2.jpg" /></a></li>
+            <li><a href="#"><img src="images/3.jpg" /></a></li>
+            <li><a href="#"><img src="images/4.jpg" /></a></li>
+            <li><a href="#"><img src="images/5.jpg" /></a></li>
+            <li><a href="#"><img src="images/6.jpg" /></a></li>
+        </ul> 
+        <!--轮播图片按钮区域 -->
+       <!-- 轮播控制区域-->
+    </div>
+    <!--轮播容器-->
+	<div class="sliderM" id="s2">
+    	<!--轮播图片区域--> 
+        <ul class="sliderM-img">
+        	<li><a href="#"><img src="images/1.jpg" /></a></li>
+            <li><a href="#"><img src="images/2.jpg" /></a></li>
+            <li><a href="#"><img src="images/3.jpg" /></a></li>
+            <li><a href="#"><img src="images/4.jpg" /></a></li>
+            <li><a href="#"><img src="images/5.jpg" /></a></li>
+            <li><a href="#"><img src="images/6.jpg" /></a></li>
+        </ul> 
+        <!--轮播图片按钮区域 -->
+       <!-- 轮播控制区域-->
+    </div>
+<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="js/sliderM.min.js" type="text/javascript"></script>
+    <script>
+
+        //调用插件
+        $(".sliderM").sliderM({
+            duration:500,
+            time:5000,
+            width:790,
+            height:340,
+            controls:true
+        })
+    </script>
+</body>
+</html>
